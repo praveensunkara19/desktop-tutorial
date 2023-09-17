@@ -1,0 +1,15 @@
+s1 : git init
+s2 : git add README.md
+s3 : git add .
+s4 : git commit -m "first commit"
+s5 : git branch -M main (skip)
+s6 : git remote add origin path of repositary
+s7 : git push -u origin main/master
+
+To update the changes
+
+add
+
+commit (second commit)
+
+push
