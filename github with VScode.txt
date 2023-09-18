@@ -1,3 +1,5 @@
+open file in VScode and go to the VScode terminal then push the file into github by using command lines
+
 s1 : git init
 s2 : git add README.md
 s3 : git add .
