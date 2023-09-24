@@ -20,4 +20,17 @@ s6: git commit -m "first commit"
 
 s7: git remote add origin (path of repository)
 
-s8: git push -u origin main --force (if your directory in masther then replace master in place of main)
+s8: git push -u origin main (if your directory in masther then replace master in place of main)
+
+* if you encountered with local this following :
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+git push -u origin main --force(if your directory in masther then replace master in place of main)
+
+Note: This force only usfull only for empty repositories...
+
+The --force option for git push allows you to override this rule: the commit history on the remote will be forcefully overwritten with your own local history. This is a rather dangerous process, because it's very easy to overwrite (and thereby lose) commits from your colleagues.
