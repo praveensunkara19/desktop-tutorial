@@ -16,7 +16,7 @@ s4: git branch -M main (skip if default, if not type this line)
 
 s5: git add .
 
-s6: git commit "first commit"
+s6: git commit -m "first commit"
 
 s7: git remote add origin (path of repository)
 
