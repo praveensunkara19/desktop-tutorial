@@ -20,4 +20,4 @@ s6: git commit -m "first commit"
 
 s7: git remote add origin (path of repository)
 
-s8: git push -u origin main (if your directory in masther then replace master in place of main)
+s8: git push -u origin main --force (if your directory in masther then replace master in place of main)
