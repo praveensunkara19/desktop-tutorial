@@ -1,0 +1,23 @@
+Uploading files With git bash in to git hub
+
+note: download the git in you pc/laptop to complete this task
+
+s1: go to file which you want to upload
+
+s2: right click and go to show more options then click git bash here.
+
+s3: git init
+
+check the directory for uploading the files (main/master)
+
+if you want to change the directory then
+
+s4: git branch -M main (skip if default, if not type this line)
+
+s5: git add .
+
+s6: git commit "first commit"
+
+s7: git remote add origin (path of repository)
+
+s8: git push - origin main (if your directory in masther then replace master in place of main)
