@@ -20,7 +20,7 @@ s6: git commit -m "first commit"
 
 s7: git remote add origin (path of repository)
 
-s8: git push -u origin main (if your directory in masther then replace master in place of main)
+s8: git push -u origin main (if your directory in masther then replace it with main)
 
 * if you encountered with local this following :
 hint: Updates were rejected because the remote contains work that you do
